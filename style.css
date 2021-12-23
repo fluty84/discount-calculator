@@ -1,0 +1,46 @@
+body {
+ display: flex;
+ flex-wrap: wrap;
+ font-family: Arial; 
+ background: #ADA996;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ align-items: center;
+ justify-content: center;
+ 
+}
+
+h1 {
+  border-radius: 10px;
+  max-width: 215px; 
+  color: white;  
+  text-align: center;
+  padding: 25px;
+  margin: 0px 0px 0px 0px ;
+  background: #11998e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+div {
+  max-width: 200px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 10px;
+  
+}
+
+input, select, button{
+  
+  max-width: 200px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button {
+  background: none; 
+  margin-top: 3px;
+}
