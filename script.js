@@ -22,7 +22,7 @@ function porcent(valor, porcentaje, operador){
       alert (sumaPorciento(valor, porcentaje))
       break;
     case "-": 
-      return restaPorciento(valor, porcentaje)
+      alert (restaPorciento(valor, porcentaje))
   }
 }
 
@@ -37,7 +37,7 @@ function ejecutar(){
   let percent = parseFloat(percentElement)
   console.log(percent)
   
-  let operator = document.querySelector("select option").value;
+  let operator = document.querySelector("select").value;
   console.log(operator)
   
   porcent(initial, percent, operator)
