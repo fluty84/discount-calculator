@@ -26,9 +26,10 @@ function porcent(valor, porcentaje, operador){
   }
 }
 
-document.querySelector("button").onclick = ejecutar;
+document.querySelector("form").addEventListener("submit", ejecutar);
 
-function ejecutar(){
+function ejecutar(event){
+  event.preventDefault()
   let initialElement = document.querySelector('#initial').value;
   let initial = parseFloat(initialElement)
   console.log(initial)
